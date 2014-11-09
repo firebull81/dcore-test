@@ -86,17 +86,6 @@ app.controller('carsCtrl', function($scope, cars, $routeParams) {
 	};
 
 
-	
-	//var arr = [];
-	//var latLen = $scope.cars.length;
-	//$scope.latitude = $scope.cars.lat;
-	//$scope.longitude = $scope.cars.lng;
-	//console.log($scope.latitude.value[1]);
-
-	//for (var i in $scope.car) {
-	  //console.log($scope.car.lat[i]); //"aa", bb", "cc"
-	//}
-
 
 	/* for (var i = 0; i < latLen; i++) {
 	    arr.push({
@@ -107,7 +96,6 @@ app.controller('carsCtrl', function($scope, cars, $routeParams) {
 
 	var car = $scope.cars
 
-	//console.log(car);
 
 	$scope.markersList = {
 		latitude: $scope.cars.lat,
