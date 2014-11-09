@@ -76,8 +76,6 @@ app.controller('mainCtrl', function($scope, cars) {
 
 app.controller('carsCtrl', function($scope, cars, $routeParams) {
 	$scope.car = $scope.cars;
-	//$scope.car = $scope.cars[$routeParams.index];
-	//$scope.index = $routeParams.index;
 
 	$scope.map = {
 	    center: {
