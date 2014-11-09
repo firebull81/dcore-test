@@ -1,0 +1,32 @@
+[
+  {
+    "image":"http://lorempixel.com/1920/1080/transport/5",
+    "brand":"Porsche",
+    "model":"Carrera",
+    "produced":"21/02/2008",
+    "inStock": "1",
+    "registration":"CA9997BH",
+  	"lat":"42.699118",
+  	"lng":"23.307160"
+  },
+  {
+    "image":"http://lorempixel.com/1920/1080/transport/8",
+    "brand":"Mini",
+    "model":"Cooper",
+    "produced":"21/06/2008",
+    "inStock": "1",
+    "registration":"PA9997BH",
+    "lat":"42.686671",
+    "lng":"23.323854"
+  },
+  {
+    "image":"http://lorempixel.com/1920/1080/transport/3",
+    "brand":"Lamborgini",
+    "model":"Diablo",
+    "produced":"21/02/2009",
+    "inStock": "0",
+    "registration":"A9997BH",
+  	"lat":"42.702773",
+  	"lng":"23.326859"
+  }
+]

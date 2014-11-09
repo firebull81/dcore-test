@@ -1,0 +1,25 @@
+<div class="row">
+        <div class="large-12 columns">
+        <br>
+        <div ng-repeat="marker in cars">{{marker.registration}}</div>
+        <google-map center="map.center" zoom="map.zoom" draggable="true">
+            <marker ng-repeat="marker in cars" idKey="markersList" coords="markersList"></marker>
+            <!-- marker idKey="1" coords="{latitude: 42.701139999999995, longitude:23.286661799999997}"></marker> 
+            <markers coords="markers"></markers -->
+        </google-map>
+        
+        <div ng-repeat="marker in markerList"> </div>
+        </div>
+    </div><br>
+<br>
+<hr>
+
+<ul class="no-bullet small-block-grid-3">
+    <li class="panel callout radius" ng-repeat="car in cars | orderBy:'-inStock'">
+        <a class="th radius" href="{{car.image}}"><img ng-src="{{car.image}}"></a>
+        <br><br>
+        <h4 class="text-center"><a href="#/car/{{$index}}"><strong>{{car.brand}} {{car.model}}</strong></a></h4>
+        <p class="text-center">{{car.produced}}</p>
+    </li>
+</ul>
+<a href="#/add" class="button small radius secondary">Add new car</a>

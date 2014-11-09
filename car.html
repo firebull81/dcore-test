@@ -1,0 +1,29 @@
+<div class="row">
+        <div class="large-12 columns">
+        <br>
+        <google-map center="map.center" zoom="map.zoom" draggable="true">
+            <marker idKey="idKey" coords="marker">
+                <marker-label content='car.brand'></marker-label>
+            </marker>
+        </google-map>
+        </div>
+    </div><br>
+<br>
+<hr>
+
+<h2>{{car.brand}} {{car.model}}</h2>
+
+<div class="row">
+    <div class="large-4 columns">
+        <a class="th radius" href="{{car.image}}"><img ng-src="{{car.image}}"></a>
+    </div>
+    <div class="large-8 columns">
+        <p><strong>Година на производство:</strong> {{car.produced}} </p>
+        <p><strong>Регистрация:</strong> {{car.registration}} </p>
+        <p><strong>В наличност:</strong> <span ng-if="car.inStock == 1">да</span> <span ng-if="car.inStock == 0">не</span> </p>
+
+    </div>
+</div>
+<hr>
+<a class="button radius small secondary left" href="#/">Back</a>
+<a class="button radius small right" href="#/edit/{{index}}">Edit</a>
