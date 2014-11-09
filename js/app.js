@@ -96,7 +96,6 @@ app.controller('carsCtrl', function($scope, cars, $routeParams) {
 
 	var car = $scope.cars
 
-	//console.log(car);
 
 	$scope.markersList = {
 		latitude: $scope.cars.lat,
