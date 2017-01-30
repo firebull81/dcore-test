@@ -1,4 +1,4 @@
-dcore-test
+dcoret
 ==========
 
 <h1>Some code</h1>
