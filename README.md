@@ -1,7 +1,7 @@
 dcore-test
 ==========
 
-<h1>DCore Test Task</h1>
+<h1>Some code</h1>
 
 
 <p>Used tech elements:</p>
